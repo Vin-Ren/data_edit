@@ -10,7 +10,7 @@ data_set = [{'id': 1, 'name':'John', 'age': 20}, {'id': 2, 'name':'Sarah', 'age'
 # Calling the function
 reformatted_data = de.reformat_data(data_set, ['id', 'name'])
 
-print('id and name only:\n', reformat_data)
+print('id and name only:\n', reformatted_data)
 ```
 
 ## Functions
