@@ -1,6 +1,6 @@
-#Data Edit
+#Data Edit#
 
-##Example use:
+##Example use:##
 ```py
 import data_edit as de # as de to make our lives easier
 
@@ -13,7 +13,7 @@ reformatted_data = de.reformat_data(data_set, ['id', 'name'])
 print('id and name only:\n', reformat_data)
 ```
 
-##Functions
+##Functions##
 Function Lists:
 
 `remove_duplicate(unfilteredlist:list):`
@@ -43,3 +43,5 @@ Returns tuple (status code, process info)
 
 `main():`
 A mini demo for reformat_file & join_files.
+
+Thats all, hopefully this module helps you.
